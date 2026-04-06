@@ -1,7 +1,5 @@
 # Systematic Equity Research: US Semiconductors
 
-> *A narrative-driven quantitative research project simulating the workflow of a junior equity analyst at a fundamental long/short hedge fund.*
-
 ---
 
 ## Overview
