@@ -1,6 +1,6 @@
 # Systematic Equity Research: US Semiconductors
 
-![Strategy Dashboard](assets/images/executive_summary_dashboard.png)
+![Strategy Dashboard](notebooks/strategy_dashboard.png)
 
 ---
 
@@ -32,13 +32,13 @@ The project follows the full analyst workflow:
 
 ### Cumulative Returns: Strategy vs Benchmarks
 
-![Cumulative Returns](assets/images/cumulative_returns.png)
+![Cumulative Returns](notebooks/cumulative_returns.png)
 
 *The factor portfolio tracks the semiconductor sector while providing modestly lower drawdowns during corrections.*
 
 ### Semiconductor Sector vs Broad Market (2014–2024)
 
-![SMH vs SPY](assets/images/smh_vs_spy.png)
+![SMH vs SPY](notebooks/smh_vs_spy.png)
 
 *Semiconductors (SMH) delivered 44.6% CAGR vs 19.7% for the S&P 500, driven by the AI compute boom of 2023-2024.*
 
@@ -57,7 +57,7 @@ The project follows the full analyst workflow:
 
 ### Universe Composition
 
-![Universe Composition](assets/images/universe_composition.png)
+![Universe Composition](notebooks/universe_composition.png)
 
 *By stock count, fabless companies represent 53% of the universe. By market cap, they dominate at 78%—driven largely by NVIDIA's $4.3 trillion valuation.*
 
@@ -76,7 +76,7 @@ The project follows the full analyst workflow:
 
 ### Factor Performance (Information Coefficients)
 
-![Factor IC Analysis](assets/images/factor_ic_timeseries.png)
+![Factor IC Analysis](notebooks/factor_ic_timeseries.png)
 
 *Monthly Spearman IC between factor scores and forward 1-month returns. Quality composite shows the most consistent positive predictive power.*
 
@@ -93,13 +93,13 @@ The project follows the full analyst workflow:
 
 ### Factor Correlation Matrix
 
-![Factor Correlations](assets/images/factor_correlation_matrix.png)
+![Factor Correlations](notebooks/factor_correlation_matrix.png)
 
 *Low correlations between most factors confirm diversification benefits. Quality and value are negatively correlated (-0.61), as expected—high-quality companies trade at premium valuations.*
 
 ### Quintile Analysis
 
-![Quintile Returns](assets/images/quintile_analysis.png)
+![Quintile Returns](notebooks/quintile_analysis.png)
 
 *Average monthly returns by factor quintile. A monotonically increasing pattern from Q1 to Q5 indicates factor efficacy.*
 
@@ -109,7 +109,7 @@ The project follows the full analyst workflow:
 
 Strategy performance varies significantly across macroeconomic regimes:
 
-![Regime Conditional Sharpe](assets/images/regime_sharpe.png)
+![Regime Conditional Sharpe](notebooks/regime_sharpe.png)
 
 | Regime | Portfolio Sharpe | SMH Sharpe |
 |--------|-----------------|------------|
@@ -128,13 +128,13 @@ Strategy performance varies significantly across macroeconomic regimes:
 
 ### Drawdown Profile
 
-![Drawdown Analysis](assets/images/drawdown_profile.png)
+![Drawdown Profile](notebooks/drawdown_profile.png)
 
 *The factor portfolio experienced a maximum drawdown of -25.4% vs -32.6% for SMH, demonstrating modest downside protection.*
 
 ### Monthly Return Heatmap
 
-![Monthly Returns Heatmap](assets/images/monthly_return_heatmap.png)
+![Monthly Returns Heatmap](notebooks/monthly_return_heatmap.png)
 
 ---
 
@@ -142,7 +142,7 @@ Strategy performance varies significantly across macroeconomic regimes:
 
 ### NVDA Exclusion Test
 
-![NVDA Exclusion](assets/images/nvda_exclusion_test.png)
+![NVDA Exclusion](notebooks/nvda_exclusion_test.png)
 
 | Portfolio | Sharpe Ratio |
 |-----------|--------------|
@@ -164,7 +164,7 @@ Strategy performance varies significantly across macroeconomic regimes:
 
 ### Number of Holdings Sensitivity
 
-![Holdings Sensitivity](assets/images/vary_n_holdings.png)
+![Holdings Sensitivity](notebooks/vary_n_holdings.png)
 
 *Testing top-5, top-10, and top-15 portfolios. Top-5 shows highest Sharpe (1.18) but with higher concentration risk.*
 
@@ -179,7 +179,7 @@ Strategy performance varies significantly across macroeconomic regimes:
 
 ### Sub-Segment Allocation Over Time
 
-![Segment Allocation](assets/images/segment_allocation.png)
+![Segment Allocation](notebooks/segment_allocation.png)
 
 *Portfolio composition by semiconductor sub-segment at each monthly rebalance.*
 
